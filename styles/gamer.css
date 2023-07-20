@@ -211,6 +211,13 @@ nav li{
 .card{
     margin:0;
     padding:0;
+    cursor:pointer;
+}
+
+.card:hover{
+    background:grey;
+
+    
 }
 
 .card p{
