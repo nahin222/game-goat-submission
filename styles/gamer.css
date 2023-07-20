@@ -474,6 +474,31 @@ footer p{
         text-align: center;
         margin-left:2rem;
     }
+
+    .footer-logos{
+        margin:0;
+        padding:0;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+    
+    .footer-terms{
+        margin:0;
+        padding:0;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        /* justify-content: space-evenly; */
+    }
+
+    .footer-tabs{
+        margin:0;
+        padding:0;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+
     
 }
 
