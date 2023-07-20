@@ -1,0 +1,100 @@
+/*work sans font from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,800&display=swap');
+
+/*shared styles*/
+
+*{
+    font-family: 'Work Sans', sans-serif; 
+}
+
+.pink-text{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*nav styles*/
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.88rem;
+}
+
+.nav-title{
+    color: #0B0223;
+    font-size: 2.8125rem;
+    font-weight: 700;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-left: 15rem;
+}
+
+.logo img{
+    width: 5.37756rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+}
+
+nav>ul{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+}
+
+nav li{
+    list-style: none;
+    color: #3C354F;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin:0;
+}
+
+.follow-us{
+    display:flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    background: rgba(11, 2, 35, 0.10);
+    gap:1rem;
+    padding-right: .5rem;
+    margin-right: 15rem;
+}
+
+.follow-us img{
+    width:2.11975rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+}
+
+.follow-us p{
+    margin-left: 1rem;
+}
+
+
+/*responsive styles*/
+@media screen and (max-width:576px){
+    nav{
+        flex-direction: column;
+    }
+
+    nav>ul{
+        margin:0;
+        flex-direction: column;
+        align-items: center;
+        gap:2rem;
+    }
+    
+    .logo{
+        margin:0;
+    }
+    
+    .follow-us{
+        margin:0;
+    }
+}
