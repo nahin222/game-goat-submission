@@ -285,6 +285,79 @@ nav li{
 }
 
 
+/*footer styles*/
+footer{
+    background: #0B0223;
+    margin-top:20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:3rem;
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+}
+
+footer .logo{
+    margin:0;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer h3{
+    color: #FFF;
+    font-size: 2.8125rem;
+    font-weight: 700;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+.footer-tabs{
+    display:flex;
+    gap: 4rem;
+    /* justify-content: space-evenly; */
+}
+
+.footer-tabs li{
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.footer-logos{
+    display:flex;
+    gap:4rem;
+    /* justify-content: space-evenly; */
+}
+
+.footer-terms{
+    display:flex;
+    gap:4rem;
+    /* justify-content: space-evenly; */
+}
+
+.footer-terms li{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-logos img{
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer; 
+}
+
+
+
 /*for debug purpose*/
 .hide{
     display:none;
