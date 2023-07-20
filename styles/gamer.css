@@ -258,7 +258,7 @@ nav li{
     flex-direction: column;
     justify-content: center;
     margin-left:8rem;
-    margin-right:15rem;
+    margin-right:10rem;
 }
 
 .play-instantly-images{
@@ -275,8 +275,9 @@ nav li{
     height: 22.81769rem;
     border-radius: 0.5rem;
     position:relative; 
+    /*doesn't align in normal view but aligns in inspect mode, no clue why*/
     right:10rem;
-    bottom:18rem;
+    bottom:5rem;
 }
 
 .play-instantly{
