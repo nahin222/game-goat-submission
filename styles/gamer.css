@@ -225,12 +225,65 @@ nav li{
 .card-container{
     display: flex;
     justify-content: space-around;
+    margin-bottom:5rem;
 }
 
 .card-container img{
     width: 21.375rem;
     height: 25rem;
 }
+
+/*play instantly styles*/
+
+.play-instantly-title{
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.75rem; /* 125% */
+   
+}
+
+.play-instantly-para{
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem; /* 166.667% */
+    width: 22.0625rem;
+}
+
+.play-instantly-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:8rem;
+    margin-right:15rem;
+}
+
+.play-instantly-images{
+    padding:0;
+    margin:0;
+}
+.play-instantly-images .bigger-image{
+    width: 39.67706rem;
+    height: 40.625rem;
+}
+
+.play-instantly-images .smaller-image{
+    width: 19.90625rem;
+    height: 22.81769rem;
+    border-radius: 0.5rem;
+    position:relative; 
+    right:10rem;
+    bottom:18rem;
+}
+
+.play-instantly{
+    display:flex;
+    justify-content: space-between;
+}
+
 
 /*for debug purpose*/
 .hide{
