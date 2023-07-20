@@ -401,6 +401,8 @@ footer p{
 
 /*responsive styles*/
 /*mobile devices*/
+
+/*all works except catagories, please try without catagories once, thank you*/
 @media screen and (max-width:576px){
     nav{
         flex-direction: column;
@@ -533,11 +535,35 @@ footer p{
         flex-wrap: wrap;
     }
 
+    
+    
+    .catagory-card-holder{
+        display:flex;
+        flex-wrap:wrap;
+        margin:0;
+        padding:0;
+        gap:1rem;
+    }
+    
+    .catagory-card p{
+        font-size:.5rem;
+        padding:0;
+        margin:0;
+    }
+
+    .catagory-card img{
+        width:30%;
+        padding:0;
+        margin:0;
+    }
+
 
     
 }
 
 /*for medium devices ie.tablets: 576px~960px*/
+/*all works except catagories, please try without catagories once, thank you*/
+
 @media screen and (min-width: 576px) and (max-width:960px){
     nav{
         flex-direction: column;
@@ -629,6 +655,11 @@ footer p{
     .play-instantly-para{
         text-align: center;
         margin-left:12rem;
+    }
+
+    .catagory-card-holder{
+        padding:0;
+        margin:0;
     }
     
 
